@@ -11,7 +11,7 @@ myform.onsubmit=(e)=>{
  if(storedData){
  if(email === storedData.email && password === storedData.password){
  alert("Login successful")
- window.location.href="./index.html"
+ window.location.href="./home.html"
  }else{
  alert("Invalid user")
  }
