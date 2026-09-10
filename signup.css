@@ -1,0 +1,52 @@
+body {
+ background: linear-gradient(135deg, #d4f1f4, #bde7bd);
+ font-family: "Poppins", sans-serif;
+ padding: 40px ;
+}
+form {
+ width: 360px;
+ margin: auto;
+}
+fieldset {
+ padding: 25px;
+ border-radius: 15px;
+ border: none;
+ background: rgba(255, 255, 255, 0.65);
+ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+}
+legend {
+ font-size: 22px;
+ font-weight: bold;
+ color: #2b6d78;
+}
+label {
+ font-weight: 600;
+ color: #2e4a4e;
+}
+input {
+ width: 95%;
+ padding: 8px;
+ margin-top: 5px;
+ border-radius: 6px;
+ border: 1px solid #8ac7c9;
+ background: #ffffff;
+}
+input{
+ border-color: #5cc0c7;
+ box-shadow: 0 0 5px #84d6dd;
+}
+input[type="radio"] {
+ width: auto;
+}
+button {
+ padding: 8px 18px;
+ border: none;
+ border-radius: 8px;
+ background: #8ed1e0;
+ color: #1c3f43;
+ font-weight: bold;
+}
+button:hover {
+ background: #6dbbc9;
+ transform: scale(1.05);
+}

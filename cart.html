@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+ <header>
+ <h2>FoodZone</h2>
+ <nav>
+ <a href="./index.html">home</a>
+ <a href="./food.html">Food</a>
+ <a href="#" class="active">Cart</a>
+ </nav>
+ </header>
+ <section id="cart-item"></section>
+ <section class="cart-summary">
+ <h2 id="total"></h2>
+ <button onclick="clearCart()">clear Cart</button>
+ <button onclick="checkout()">checkout</button>
+ </section>
+ <!-- ■ Script should be inside body -->
+ <script src="./cart.js"></script>
+</body>
+</html>

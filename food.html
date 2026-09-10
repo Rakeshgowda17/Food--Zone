@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>FoodZone</title>
+ <link rel="stylesheet" href="food.css">
+</head>
+<body>
+ <header>
+ <h2>FoodZone</h2>
+ <nav>
+ <a href="./index.html">Home</a>
+ <a href="./food.html" class="active">Food</a>
+ <a href="./cart.html">Cart</a>
+ </nav>
+ </header>
+ <main class="container">
+ <h2>Food Menu</h2>
+ <input type="search" id="searchBox" placeholder="Search Item ..." oninput="applyFilter()">
+ <select name="category" id="category" onchange="applyFilter()">
+ <option value="all">All</option>
+ <option value="Pizza">Pizza</option>
+ <option value="Burger">Burger</option>
+ <option value="Biryani">Biryani</option>
+ <option value="Rolls">Rolls</option>
+ <option value="Desserts">Desserts</option>
+ <option value="Drinks">Drinks</option>
+ <option value="Starters">Starters</option>
+ </select>
+ <article id="food-item" class="food-item"></article>
+ </main>
+ <script src="food.js"></script>
+</body>
+</html>
