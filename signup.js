@@ -13,8 +13,8 @@ myForm.onsubmit = (e) => {
     let jsonData = JSON.stringify(formData)
     console.log(jsonData)
 
-    localStorage.setItem('userData', jsonData)
+    localStorage.setItem('userInfo', jsonData)
     alert("user Register Successful")
-    window.location.href = '../login.html'
+    window.location.href = './login.html'
 
 }
